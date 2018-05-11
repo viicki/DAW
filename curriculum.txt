@@ -1,0 +1,88 @@
+<!DOE html>
+<html lang="es">
+<head>
+     <meta charset="utf-8">
+     <meta name="description" content ="">
+     <meta name="author" content="">
+     <title> curriculum vitae </title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">">
+     <!--hoja de estilo-->
+     <style type ="text/css">
+     body{
+         
+
+
+     	margin:0;
+     	padding: 0;
+     	font-family: "montserrat",arial, sans-serif;
+     	font-size: 12px;
+     	
+     	background-image:  url(http://notgoaway.com/wp-content/uploads/2017/07/Wallpaper-Tumblr-6B.jpg);
+     	background-size:  cover;
+     	background-position:  bottom center;
+     }
+     .contenedor{
+     	width: 80%;
+     	margin: 0 auto;
+     	background-color: aliceblue;
+     	border-radius: 20px;
+     }
+     header{
+          padding: 40 x  5px;
+          margin-bottom: 20px;
+          background: url(http://eskipaper.com/images/tumblr-backgrounds-11.jpg) no-repeat bottom left;
+          height: 200px;
+          background-size:  100%;
+     }
+     header h1, header h2, header h4{
+                 margin: 0;
+                 padding: 0;
+                 text-align:  center;
+     }
+     </style>
+
+</head>
+<body>
+     <div class="contenedor">
+        <header>
+          <h1>curriculum vitae </h1>
+          <h2>Victoria Estefania Ek Martinez</h2>
+          <h4>Bachillerato</h4>
+        </header>
+        <section id="Datos_Personales">
+          <ul>
+          <li><b>Lugar de nac.:</b> <span>26 de mayo de 1995.
+          </span></li>
+          <li><b>Lugar de nac.:</b> <span>campeche, campeche.
+          </span></li>
+          <li><b>Correo.:</b>
+           <span><a href="mailto:ekmtzvk@hotmail.com">
+             ekmtzvk&364;hotmail.com </a></span></li>
+             <li><b>Telefono:</b><span>+521 (923)1385162 </span></li>
+             <li><b>Direccion:</b><span>in house, calle gran bahia</span></li>
+             <li><b>c.p.:</b><span>77007</span></li>
+
+          </ul>
+         <div class="foto"></div>
+       </section>
+       <section id ="Educacion">
+        <table border="1" cellspacing="0">
+          <tr>
+            <td><b> 2017 </b> - <b> actual </b></td>
+            <td><span>UT Riviera Maya </span> TSU en Multimedia y Comercio Electronico</td>
+          </tr>
+          <tr>
+             <td><b>2013 </b> - <b>2016</b></td>
+             <td><span>COVAEB</span> Bachillerato.
+             </td>
+          </tr>
+        </table> 
+    </section>
+</div>
+</body>
+</html>
+
+
+
+
+     
