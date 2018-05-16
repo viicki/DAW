@@ -1,0 +1,101 @@
+
+body{
+
+
+
+ margin:0;
+
+ padding: 0;
+
+ font-family: "montserrat",arial, sans-serif;
+ 
+font-size: 12px;
+
+ background-image:  url(https://thumbs.dreamstime.com/b/fondo-blanco-de-la-pared-ladrillo-con-las-luces-brillantes-103531497.jpg);
+
+ background-size:  cover;
+ background-position:  bottom center;
+}
+
+.contenedor{
+ 
+width: 80%;
+
+ margin: 0 auto;
+
+ background-color: #9999CC;
+
+ border-radius: 20px;
+ color:#000000;
+
+}
+
+section {
+  
+float :left;
+
+  width: 48%;
+
+}
+
+section h2{
+  background: #CCCCCC;
+ 
+ text-transform: uppercase;
+ 
+ padding: 10px;
+
+}
+
+#imagenes
+ img {
+  width: 15%;
+ 
+ display:inline-block;
+  
+padding: 10px;
+ 
+ background: #000000;
+  
+margin:5px;
+
+}
+
+#imagenes 
+img:hover{
+ 
+ padding: 5px;
+ 
+ margin: 10px;
+  
+width: 25%;
+
+}
+/*solucionar elememntos flotantes*/
+
+.clear{
+  clear:both;
+
+}
+header{
+     padding: 40 x  5px;
+ 
+    margin-bottom: 20px;
+ 
+    background: url(https://www.solofondos.com/wp-content/uploads/2015/12/fondos-romanticos-9375.jpg) no-repeat 
+bottom left;
+     height: 200px;
+   
+  background-size:  100%;
+
+}
+header h1, header h2, header h4{
+        
+    margin: 0;
+       
+     padding: 0;
+      
+      text-align:  
+center;
+
+}
