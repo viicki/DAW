@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<HTML lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Ejemplo onChange</title>
+    <script>
+function cambiarcolor(id){
+    var color = document.getElementById(id).value;
+    var form=document.getElementById("form1");
+    form.style.backgroundColor=color;
+}
+
+    </script>
+    <style>
+        .campo{
+            border: 1px solid #000;
+            padding: 5px 10px
+        }
+    </style>
+    </head>
+    <body>
+    <frorm name="form1" class="campo" id="form1"> 
+        <select onchange="cambiarcolor(this.id);" id="tipoEnvio" name="envio">
+        <option value="#FFFFFF" selected>color predeterminado</option>
+            <option value="#193A33">color 1</option>
+             <option value="#612F7F">color 2</option>
+             <option value="#61AF7F">color 3</option>
+        </select>
+        </frorm>
+    </body>
+    
+    
+</HTML>

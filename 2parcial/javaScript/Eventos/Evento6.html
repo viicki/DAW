@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+   <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=0.1">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>evento6</title>
+  <script type="text/javascript">
+       function soloNumeros(e){
+           var key= window.Event ? e.which : e.keyCode;
+           var texto= document.getElementById("txt");
+           texto.innerHTML="key: " + event.which;
+           return (key >= 48 && key <= 57)
+       }
+       
+       
+       
+       </script>
+       
+</head>
+        
+    <body >
+       
+       <input type="text" id="txtCosto" name="txtCosto" value="" onkeyPress="return soloNumeros(event)" />
+       <div id="txt"> </div>
+    </body>
+
+
+</html>
