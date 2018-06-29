@@ -1,0 +1,38 @@
+ 
+#startTime{
+    background:#181BB8;
+    display: block;
+    margin: 0 0 200px 150px;
+    text-align: center;
+    width: 500px;
+}
+
+@Font-face{
+        font-family:LED Dot-Matrix;
+    src: url(LED%20Dot-Matrix.ttf);
+        
+    }
+
+
+#txt{
+      font-family: LED Dot-Matrix;  
+    font-size: 200px;
+    color:#246ECD;
+    background-color: #D6C9D7;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    border-width: 500px;
+    border-color: #FF0000;
+    border-radius: 0px;
+    -moz-border-radius:50px;
+}
+
+body{
+    
+    
+   background-color: #D3D3D3;  
+     background-image:  url(https://www.cariloop.com/wp-content/uploads/2014/06/cariloop-clock-2.jpg);
+     background-size: cover;
+     background-position:  center;}
+}
